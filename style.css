@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    /* padding: 0;
+    box-sizing: border-box; */
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-photo/veggie-quinoa-bowl-cooking-recipe_53876-110662.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+.header {
+    background-color: rgb(216, 220, 221);
+    width: 100%;
+    position: fixed;
+}
+
+.section-1 {
+    display: grid;
+    place-items: center;
+}
+
+div>img {
+    margin: 20px;
+    width: 350px;
+    height: 250px;
+}
+
+.section-1>p {
+    background-color: rgba(241, 226, 206, 0.993);
+    display: inline-block;
+    width: 600px;
+    column-count: 2;
+    font-size: 16px;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    background-color: lavenderblush;
+}
+
+.div1 {
+    width: auto;
+    float: left;
+    padding: 20px;
+    border: 2px solid gold;
+    outline: none;
+    margin: 10, 20px;
+}
